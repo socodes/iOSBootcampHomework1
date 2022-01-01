@@ -65,25 +65,29 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="brv-pY-ey5" customClass="imageView">
-                                <rect key="frame" x="49" y="111" width="316" height="288"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="jsy-Ab-cDD">
-                                <rect key="frame" x="137" y="513" width="141" height="48"/>
+                                <rect key="frame" x="137" y="464" width="141" height="48"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="48" id="D6e-FW-Fbu"/>
+                                    <constraint firstAttribute="height" constant="48" id="Jmn-Dz-1P3"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="brv-pY-ey5" customClass="imageView">
+                                <rect key="frame" x="67" y="143" width="280" height="274"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="x8A-OC-CMj"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="jsy-Ab-cDD" firstAttribute="leading" secondItem="x8A-OC-CMj" secondAttribute="leading" constant="137" id="eOz-su-qvo"/>
-                            <constraint firstItem="x8A-OC-CMj" firstAttribute="bottom" secondItem="jsy-Ab-cDD" secondAttribute="bottom" constant="88" id="u8u-oN-hid"/>
+                            <constraint firstItem="brv-pY-ey5" firstAttribute="top" secondItem="x8A-OC-CMj" secondAttribute="top" constant="55" id="2rV-ks-11G"/>
+                            <constraint firstItem="jsy-Ab-cDD" firstAttribute="leading" secondItem="x8A-OC-CMj" secondAttribute="leading" constant="137" id="CaT-I5-Fhd"/>
+                            <constraint firstItem="jsy-Ab-cDD" firstAttribute="centerX" secondItem="d45-gB-By8" secondAttribute="centerX" id="KUs-OT-MF8"/>
+                            <constraint firstItem="x8A-OC-CMj" firstAttribute="bottom" secondItem="jsy-Ab-cDD" secondAttribute="bottom" constant="350" id="Pzg-xL-0HV"/>
+                            <constraint firstItem="brv-pY-ey5" firstAttribute="centerX" secondItem="jsy-Ab-cDD" secondAttribute="centerX" id="Yam-5o-fyi"/>
+                            <constraint firstItem="brv-pY-ey5" firstAttribute="leading" secondItem="x8A-OC-CMj" secondAttribute="leading" constant="67" id="kRd-Jt-B3G"/>
+                            <constraint firstItem="jsy-Ab-cDD" firstAttribute="top" secondItem="brv-pY-ey5" secondAttribute="bottom" constant="47" id="vZs-j7-KVe"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="dao-Ie-fqF"/>
